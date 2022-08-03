@@ -53,12 +53,7 @@
 .contacts__list {
     margin-bottom: 3rem;
 }
-.contacts__img {
-    display: block;
-    width: 100%;
-    max-width: 60rem;
-    margin: 0 auto;
-}
+
 
 
 
@@ -175,7 +170,6 @@
         transform: translate(0, -50%);
         left: 65%;
         background-color: var(--second-brand-color);
-        opacity: .5;
     }
     .contacts {
         text-align: left;
@@ -206,12 +200,7 @@
         display: block;
         content: '';
     }
-    .contacts__img {
-        margin: 0;
-        width: 60rem;
-        height: 40rem;
-        object-fit: cover;
-    }
+  
     .contacts__item-link .text:hover {
         letter-spacing: .2rem;
     }
@@ -236,10 +225,7 @@
         content: '';
         width: 60rem;
         height: 100%;
-        background-image: url('../img/bg3.jpeg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        background-color: var(--third-brand-color);
         top: 0;
         right: 50%;
     }
